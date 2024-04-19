@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+#billFormSection {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#billDisplay {
+    /* Add styling for bill display */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
